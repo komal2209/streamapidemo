@@ -3,6 +3,8 @@ package work;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
+// code with ease - by varsha
 public class InterviewStreamQuestion {
     public static void main(String[] args) {
         List<Integer> al = Arrays.asList(12, 4, 3, 4, 9, 7, 8, 54, 2, 37, 8);
@@ -62,22 +64,25 @@ public class InterviewStreamQuestion {
         System.out.println("Remove the duplicates : " + remDup);
         System.out.println();
 
-        String strCre = "Java is the best language in the terms of oops . Java is versatile language .";
 
-        //int count=Arrays.stream(strCre.split(" ")).filter(i->i.)
 
         Integer sumaofall = al.stream().reduce((a, b) -> a + b).get();
         System.out.println("List of numbers: " + al);
-
-
-
         System.out.println();
 
         Double numAvg= al.stream().mapToInt(i->i).average().getAsDouble();
         System.out.println("average of all the numbers." +numAvg);
-
         System.out.println();
 
+        boolean llEven=al.stream().anyMatch(i->i%2==0);
+        System.out.println("Lists : "+al);
+        System.out.println("checking any of numbers in the list is even or not : " +llEven);
+        System.out.println();
+
+
+        boolean llOdd=al.stream().allMatch(i->i%2==0);
+        System.out.println("Lists : "+al);
+        System.out.println("checking all of numbers in the list is even or not : " +llOdd);
 
     }
 }

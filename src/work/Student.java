@@ -3,7 +3,7 @@ package work;
 import java.util.*;
 import java.util.stream.Collectors;
 
-
+//durga channel
 public class Student implements Comparable<Student> {
     Integer marks;
     String name;
@@ -46,6 +46,8 @@ public class Student implements Comparable<Student> {
         ll.add(new Student(70, "Sweta"));
         ll.add(new Student(80, "Golu"));
         ll.add(new Student(60, "Ravi"));
+        ll.add(new Student(60, "Raju"));
+        ll.add(new Student(90, "Rajiv"));
 
 
         //sorted different way.
@@ -102,6 +104,9 @@ public class Student implements Comparable<Student> {
 
        Collections.sort(ll,(e,e1)->e.name.compareTo(e1.name));
         System.out.println("sorted by collections.sort(): "+ll);
+
+       // ll.stream().filter(ll->ll.marks)
+
 
     }
 

@@ -8,6 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+// durga and durgesh channel
 public class MinAndMaxMethodExample {
     public static void main(String[] args) {
         ArrayList<Integer> al=new ArrayList<>();
