@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-// Naveen AutomationLabs
+// channel for pick the question -(Naveen AutomationLabs)
 public class InterviewRealtedQuestion {
     public static void main(String[] args) {
         //remove duplicates option 1

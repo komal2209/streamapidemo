@@ -37,7 +37,7 @@ public class StreamExample {
 
 
         System.out.println();
-        System.out.println("filter according to the string length .if the length is the sort by alphabetical order");
+        System.out.println("filter according to the string length .if the length is same then sort by alphabetical order");
 
 
         List<String> ss=new ArrayList<>();

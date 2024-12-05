@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-// code with ease - by varsha
+// channel for pick the question -(code with ease - by varsha)
 public class InterviewStreamQuestion {
     public static void main(String[] args) {
         List<Integer> al = Arrays.asList(12, 4, 3, 4, 9, 7, 8, 54, 2, 37, 8);
